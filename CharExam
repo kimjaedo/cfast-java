@@ -1,0 +1,21 @@
+public class CharExam {
+    public static void main(String[] args) {
+        // '1'+'2'+'3'+'4'+'5'=15이 나오도록 프로그래밍 하시오
+        int sum=0; // '0'->48
+        sum=sum+'1'; // '1'->49
+        sum=sum+'2';
+        sum=sum+'3';
+        sum=sum+'4';
+        sum=sum+'5';
+        System.out.print("sum = " + sum); // 255
+        System.out.println(); // 줄바꿈
+
+        int sum1=0;
+        sum1=sum1+('1'-'0');
+        sum1=sum1+('2'-'0');
+        sum1=sum1+('3'-'0');
+        sum1=sum1+('4'-'0');
+        sum1=sum1+('5'-'0');
+        System.out.println("sum1 = " + sum1);
+    }
+}
