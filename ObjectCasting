@@ -13,5 +13,8 @@ public class ObjectCasting {
         ani = new Cat(); // 업캐스팅(Upcasting)
         ani.eat();
         // ani.night(); // 다운캐스팅(Downcasting)
+        // Cat c = (Cat)ani;
+        // c.night();
+        ((Cat)ani).night();
     }
 }
