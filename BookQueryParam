@@ -1,0 +1,16 @@
+package com.example.restapi.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Data // DTO 필요 메서드 생성
+@AllArgsConstructor // 전체생성자 메서드 생성
+@NoArgsConstructor // 기본생성자 메서드 생성
+public class BookQueryParam {
+    private String category;
+    private String issuedYear;
+    private String issuedMonth;
+    private String issuedDay;
+}
